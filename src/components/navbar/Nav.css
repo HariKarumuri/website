@@ -1,0 +1,16 @@
+
+/*-----------------------------varialbles-----------------------colors------------------*/
+
+
+.navbar
+{
+  background: var(--bg-one);
+  z-index: 99;
+  
+}
+.navbar-brand,.nav-link{
+  color: var(--primary) !important;
+}
+.nav-link:hover{
+  color: var(--primary-green) !important;
+}

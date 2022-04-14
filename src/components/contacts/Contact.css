@@ -1,0 +1,14 @@
+.Contact input, .Contact textarea{
+  border: 2px solid var(--primary-green) !important ;
+  margin: 1rem;
+  
+}
+input::placeholder{
+  color: var(--primary) !important;
+  font-weight: lighter;
+}
+
+textarea::placeholder{
+  color: var(--primary) !important;
+  font-weight: lighter !important;
+}

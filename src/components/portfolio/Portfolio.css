@@ -1,0 +1,38 @@
+.card-text{
+  color: var(--primary) !important;
+  font-weight: lighter;
+  margin-bottom: 5rem;
+}
+.link-btn{
+  font-weight: lighter;
+  font-size: small;
+}
+.link-btn:hover{
+  
+  background-color: var(--bg1) !important;
+  border: solid 1px var(--primary-green);
+ 
+}
+img{
+  height:250px ;
+  
+  
+}
+img:hover{
+  filter: blur(2px);
+}
+.badge{
+  text-transform: uppercase;
+}
+
+.card{
+  height: 100%;
+  position: relative;
+}
+.card a {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  margin: 0 0 1rem 1rem;
+  
+}

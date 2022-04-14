@@ -1,0 +1,21 @@
+
+
+.icons-row{
+  margin: auto ;
+}
+.iconss{
+  
+  margin: 0.5rem 1rem 0 0;
+  
+}
+.iconss:hover{
+  transform: scale(1.5);
+}
+
+
+.col h6, .col p{
+  text-transform: lowercase;
+  color: var(--primary) ;
+  font-weight: lighter;
+  margin: auto 0;
+}

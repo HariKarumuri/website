@@ -1,0 +1,59 @@
+
+/*-----------variables-----*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/*--------------------------------colors------------------------------*/
+:root{
+  --primary: rgb(255, 255, 255);
+  --primary-green:rgb(12,181,87);
+  --bg-one:rgb(19,19,29);
+  --bg-two:rgb(27,26,39);
+
+}
+*{
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+.bg1{
+  background-color: var(--bg-one) !important;
+}
+.bg2{
+  background-color: var(--bg-two) !important;
+}
+.primary-green{
+  background-color: var(--primary-green) !important;
+}
+.greenFont{
+  color: var(--primary-green) !important;
+}
+.bg1Font{
+  color: var(--bg-one);
+}
+.bg2Font{
+  color: var(--bg-two);
+}
+
+
+
+
+
+/*--------------------------------------random styling for every thing--------------------------*/
+
+
+
+
+
+/*-------------------small screen---------------------- */
+@media screen and (min-width : 600px){
+    
+}
+
+
+
+/*--------------------------tablets and laptops--------------------------*/
+@media screen and (min-width : 1000px){
+    
+}
+
