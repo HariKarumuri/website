@@ -20,11 +20,11 @@ const Footer = () => {
 
             <FontAwesomeIcon icon={faInstagram} className="greenFont iconss" onClick={()=>{window.open('https://www.instagram.com/hari_karumuri/','_blank')}} />
           </div>
-          <div className="col d-flex justify-content-center">
+          <div className="col d-flex justify-content-center phone">
             <FontAwesomeIcon icon={faAt} className="greenFont iconss" />
             <h6>harikarumuri1086@gmail.com</h6>
           </div>
-          <div className="col d-flex justify-content-center">
+          <div className="col d-flex justify-content-center phone">
             <FontAwesomeIcon icon={faPhone} className="greenFont iconss" />
             <p>+917661908534</p>
           </div>

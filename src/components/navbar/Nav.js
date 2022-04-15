@@ -17,16 +17,16 @@ const Nav = () => {
     <div className={ `collapse navbar-collapse ${HamShow?"show":""}   `}   >
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active pe-4" aria-current="page" href="#home">Home</a>
+          <a className="nav-link active pe-4" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link pe-4 " aria-current="page" href="#about">About</a>
+          <a className="nav-link pe-4 " aria-current="page" href="/about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link pe-4 " aria-current="page" href="#portfolio">Portfolio</a>
+          <a className="nav-link pe-4 " aria-current="page" href="/portfolio">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link pe-4" aria-current="page" href="#contact">Contact</a>
+          <a className="nav-link pe-4" aria-current="page" href="/contact">Contact</a>
         </li>
        
         

@@ -13,7 +13,7 @@
 }
 
 
-.col h6, .col p{
+.phone h6, .phone p{
   text-transform: lowercase;
   color: var(--primary) ;
   font-weight: lighter;

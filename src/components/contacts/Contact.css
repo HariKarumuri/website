@@ -12,3 +12,26 @@ textarea::placeholder{
   color: var(--primary) !important;
   font-weight: lighter !important;
 }
+#contact{
+  height: 100vh;
+}
+
+.SucessBox{
+   width: 410px;
+   padding: 0.5rem;
+   margin: auto;
+   border-radius: 0.2rem;
+   box-shadow: 1px 2px 5px black;
+    
+}
+.SucessBox p {
+  color: var(--primary);
+  text-shadow: 1px 2px 5px black;
+}
+#exampleInputEmail1,#NameClass{
+  text-transform: none;
+}
+
+.displayNONE{
+  display: none;
+}

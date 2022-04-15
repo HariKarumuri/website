@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import image1 from './image1.png'
 
 const Header = () => {
   return (
@@ -32,13 +33,12 @@ const Header = () => {
               </span>
             </h3>
             <p>
-              a student at jain university ,persuing AI in CSE Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Voluptatibus, itaque.
+            I'm a student at Jain University, pursuing AI in CSE with a particular interest in web development, and I'm about to create an app called techcheck, an ecommerce software that recommends the ideal gadget for your specific needs.
             </p>
           </div>
           <div className="col d-flex justify-content-center align-items-center ImgClass">
             <figure>
-              <img src="https://assets.stickpng.com/images/5f439d47777cdb0004f2ecae.png" alt="image of me" srcset="" />
+              <img src={image1} alt="image of me" srcset="" />
             </figure>
           </div>
         </div>

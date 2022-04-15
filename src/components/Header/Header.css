@@ -17,6 +17,7 @@ h3 {
   width: 50%;
   color: var(--primary);
   font-weight: lighter;
+  margin-top: 3rem;
 }
 .ImgClass img {
   filter: grayscale(50%);
@@ -36,7 +37,7 @@ h3 {
     display: none;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1240px) {
   .ImgClass img {
     width: 50%;
     height: 50%;
